@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/Forum.Api.Infrastructure.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/Forum.Api.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/Forum.Api.Core.Domain.csproj",
+        "projectName": "Forum.Api.Core.Domain",
+        "projectPath": "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/Forum.Api.Core.Domain.csproj",
+        "packagesPath": "/Users/diren/.nuget/packages/",
+        "outputPath": "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/diren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/diren/Project/forum-app/src/Common/Forum.Common/Forum.Common.csproj": {
+                "projectPath": "/Users/diren/Project/forum-app/src/Common/Forum.Common/Forum.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/Forum.Api.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/Forum.Api.Infrastructure.Persistence.csproj",
+        "projectName": "Forum.Api.Infrastructure.Persistence",
+        "projectPath": "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/Forum.Api.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/diren/.nuget/packages/",
+        "outputPath": "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/diren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/Forum.Api.Core.Domain.csproj": {
+                "projectPath": "/Users/diren/Project/forum-app/src/Api/Core/Forum.Api.Core.Domain/Forum.Api.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/diren/Project/forum-app/src/Common/Forum.Common/Forum.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/diren/Project/forum-app/src/Common/Forum.Common/Forum.Common.csproj",
+        "projectName": "Forum.Common",
+        "projectPath": "/Users/diren/Project/forum-app/src/Common/Forum.Common/Forum.Common.csproj",
+        "packagesPath": "/Users/diren/.nuget/packages/",
+        "outputPath": "/Users/diren/Project/forum-app/src/Common/Forum.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/diren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
