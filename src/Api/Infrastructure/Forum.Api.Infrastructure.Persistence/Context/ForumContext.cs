@@ -10,7 +10,11 @@ public class ForumContext : DbContext
 
     public const string DEFAULT_SCHEMA = "dbo";
 
-    public ForumContext(DbContextOptions<ForumContext> options) : base(options)
+    public ForumContext()
+    {
+        
+    }
+    public ForumContext(DbContextOptions options) : base(options)
     {
     }
 
@@ -23,6 +27,21 @@ public class ForumContext : DbContext
     public DbSet<EntryFavorite> EntryFavorites { get; set; }
     public DbSet<EntryCommentFavorite> EntryCommentFavorites { get; set; }
     public DbSet<EntryCommentVote> EntryCommentVotes { get; set; }
+    
+    public DbSet<EmailConfirmation> EmailConfirmations { get; set; }
+
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            var connStr = "Server=localhost,1433;Database=ForumDb;User Id=SA;Password=Docker.123;TrustServerCertificate=True;";
+            optionsBuilder.UseSqlServer(connStr, opt =>
+            {
+                opt.EnableRetryOnFailure();
+            }); 
+        }
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

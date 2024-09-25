@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3WdnYHQ4lHgTlvO6E6l1PJrSjCgQlAVJ1ZngBbqa3OEoZWPijnXkzFPcNs1HOPLcAbyZp8OY4OCQVRkb3i1eRg==",
+  "dgSpecHash": "mHFX+HSJ1YM=",
   "success": true,
   "projectFilePath": "/Users/diren/Project/forum-app/src/Client/BlazorWeb/Forum.Client.BlazorWeb.WebApp/Forum.Client.BlazorWeb.WebApp.csproj",
   "expectedPackageFiles": [

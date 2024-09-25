@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "93tPS8v7q/lnzoQhHWKlI+mR+n/uhKM4ArRUvLsKnyPOtRn2pkddi5mgjd8KSqRgen7jQvb8buW2uS0Q7UvN9Q==",
+  "dgSpecHash": "CHggUeoCTmk=",
   "success": true,
   "projectFilePath": "/Users/diren/Project/forum-app/src/Projections/Forum.Projections.FavoriteService/Forum.Projections.FavoriteService.csproj",
   "expectedPackageFiles": [

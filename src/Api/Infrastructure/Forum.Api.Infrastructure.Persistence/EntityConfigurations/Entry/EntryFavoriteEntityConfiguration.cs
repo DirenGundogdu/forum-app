@@ -16,7 +16,7 @@ public class EntryFavoriteEntityConfiguration : BaseEntityConfiguration<Forum.Ap
 
         builder.HasOne(x => x.Entry).WithMany(x => x.EntryFavorites).HasForeignKey(x => x.EntryId);
 
-        builder.HasOne(x => x.CreatedUser).WithMany(x => x.EntryFavorites).HasForeignKey(x => x.CreatedById);
+        builder.HasOne(x => x.CreatedUser).WithMany(x => x.EntryFavorites).HasForeignKey(x => x.CreatedById).OnDelete(DeleteBehavior.Restrict);
     }
 
 }

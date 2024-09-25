@@ -46,16 +46,16 @@
           }
         }
       },
-      "Bogus/2.1.4": {
+      "Bogus/35.6.1": {
         "type": "package",
         "compile": {
-          "lib/net40/Bogus.dll": {
-            "related": ".XML"
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net40/Bogus.dll": {
-            "related": ".XML"
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1584,17 +1584,23 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Bogus/2.1.4": {
-      "sha512": "hy7obx2zGCkbSAhffhFHYXgFQbw06TfXVdXo6Tkav2faglTwapLvu2PR/oZnBnxxEfaMXgr1MVotWuoRav2XZw==",
+    "Bogus/35.6.1": {
+      "sha512": "QPJ8zLL0ScEunEoUNhMDigD4ykA/n7vXCZUQdGCFGHBfP2mNYjiCzR9Cj12eaFaDlwkhIC1HKQZihWl8OgbLsw==",
       "type": "package",
-      "path": "bogus/2.1.4",
+      "path": "bogus/35.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bogus.2.1.4.nupkg.sha512",
+        "bogus.35.6.1.nupkg.sha512",
         "bogus.nuspec",
-        "lib/net40/Bogus.XML",
-        "lib/net40/Bogus.dll"
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4159,7 +4165,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Bogus >= 2.1.4",
+      "Bogus >= 35.6.1",
       "Forum.Api.Core.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.8",
@@ -4215,7 +4221,7 @@
         "dependencies": {
           "Bogus": {
             "target": "Package",
-            "version": "[2.1.4, )"
+            "version": "[35.6.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -4255,17 +4261,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Bogus 2.1.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Bogus",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

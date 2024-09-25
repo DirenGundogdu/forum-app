@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TZHWXzgrfn2MiSJPuDjycwy4OYmjDNKQOzHxVDz1Gx2gZRw3Eq3/ZYahEFEx4J5Yvk9KmzVKTE0bf6+LWrN8Nw==",
+  "dgSpecHash": "DKl4v9M4q5g=",
   "success": true,
   "projectFilePath": "/Users/diren/Project/forum-app/src/Api/Infrastructure/Forum.Api.Infrastructure.Persistence/Forum.Api.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/diren/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/diren/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
-    "/Users/diren/.nuget/packages/bogus/2.1.4/bogus.2.1.4.nupkg.sha512",
+    "/Users/diren/.nuget/packages/bogus/35.6.1/bogus.35.6.1.nupkg.sha512",
     "/Users/diren/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/diren/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/diren/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -82,16 +82,5 @@
     "/Users/diren/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/diren/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Bogus 2.1.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Bogus",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
